@@ -5,6 +5,8 @@ which -s brew
 if [[ $? != 0 ]] ; then
     # Install Homebrew
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    # echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/USERNAME/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 else
     echo brew already installed
 fi
@@ -105,22 +107,22 @@ brew install git-lfs
 # brew install zopfli
 
 # Install Apps
-brew cask install iterm2
-brew cask install atom
-brew cask install airtame
-brew cask install sublime-text
-brew cask install github-desktop
-brew cask install google-chrome
-brew cask install skype
-brew cask install slack
-brew cask install spotify
-brew cask install rambox
-brew cask install cleanmymac
-brew cask install docker
-brew cask install pycharm
-brew cask install datagrip
-brew cask install visual-studio-code
+brew install --cask iterm2
+brew install --cask atom
+brew install --cask airtame
+brew install --cask sublime-text
+brew install --cask github-desktop
+brew install --cask google-chrome
+brew install --cask skype
+brew install --cask slack
+brew install --cask spotify
+brew install --cask rambox
+brew install --cask cleanmymac
+brew install --cask docker
+brew install --cask pycharm
+brew install --cask datagrip
+brew install --cask visual-studio-code
 # Get office manually
-
 # Remove outdated versions from the cellar.
+
 brew cleanup
