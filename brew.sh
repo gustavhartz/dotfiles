@@ -122,6 +122,8 @@ brew install --cask docker
 brew install --cask pycharm
 brew install --cask datagrip
 brew install --cask visual-studio-code
+brew install --cask postman
+
 # Get office manually
 # Remove outdated versions from the cellar.
 
