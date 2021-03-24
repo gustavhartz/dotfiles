@@ -11,6 +11,7 @@ Install remaning Apps
 
 based on https://github.com/mathiasbynens/dotfiles
 
+With help from https://github.com/kingluddite/dotfiles
 
 ### TODO
 [ ] Write a propper readme
