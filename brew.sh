@@ -4,7 +4,7 @@
 which -s brew
 if [[ $? != 0 ]] ; then
     # Install Homebrew
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     # echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/USERNAME/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
 else
@@ -123,6 +123,7 @@ brew install --cask pycharm
 brew install --cask datagrip
 brew install --cask visual-studio-code
 brew install --cask postman
+brew install --cask rectangle
 
 # Get office manually
 # Remove outdated versions from the cellar.
