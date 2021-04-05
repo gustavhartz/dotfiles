@@ -169,3 +169,5 @@ alias schill="spotify play uri spotify:user:spotify:playlist:37i9dQZF1DWZeKCadgR
 alias zash='sublime ~/.zshrc' # open zshrc in sublime
 alias zfrash='source ~/.zshrc' # refresh zshrc
 alias tfresh='tmux source-file ~/.tmux/tmux.conf'
+
+alias pycm='open -na "PyCharm.app"'
