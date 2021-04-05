@@ -106,6 +106,10 @@ brew install git-lfs
 # brew install vbindiff
 # brew install zopfli
 
+# Install data related science stuff
+brew install jupyter
+
+
 # Install Apps
 brew install --cask iterm2
 brew install --cask atom
