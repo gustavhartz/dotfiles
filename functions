@@ -1,0 +1,19 @@
+# Create a new directory and enter it
+function mkd() {
+	mkdir -p "$@" && cd "$_";
+}
+
+# Set env based on file. Primary use: Pycharm"
+function actenv() {
+	if [ -f ".env" ]; then
+		export $(grep -v '^#' .env | xargs);
+	else
+		echo "No .env file in this directory";
+	fi;
+}
+
+# Activate env and open pycharm
+function pycm_a() {
+	actenv;
+	pycm;
+}
