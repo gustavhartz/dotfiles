@@ -105,6 +105,7 @@ brew install git-lfs
 # brew install tree
 # brew install vbindiff
 # brew install zopfli
+brew install jq
 
 # Install data related science stuff
 brew install jupyter
