@@ -31,6 +31,8 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
+
+# TODO: fix issue
 brew install gnu-sed --with-default-names
 # Install a modern version of Bash.
 # brew install bash
@@ -42,12 +44,15 @@ brew install gnu-sed --with-default-names
 #   chsh -s "${BREW_PREFIX}/bin/bash";
 # fi;
 
+# TODO: fix issue
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
 # Install GnuPG to enable PGP-signing commits.
 # brew install gnupg
 
+
+# TODO: fix issue
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 # brew install grep
@@ -106,6 +111,7 @@ brew install git-lfs
 # brew install vbindiff
 # brew install zopfli
 brew install jq
+brew install postgresql
 
 # Install data related science stuff
 brew install jupyter
