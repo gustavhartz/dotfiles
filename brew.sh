@@ -112,6 +112,7 @@ brew install git-lfs
 # brew install zopfli
 brew install jq
 brew install postgresql
+brew install duti
 
 # Install data related science stuff
 brew install jupyter
@@ -135,6 +136,8 @@ brew install --cask datagrip
 brew install --cask visual-studio-code
 brew install --cask postman
 brew install --cask rectangle
+brew install --cask mark-text
+
 
 # Get office manually
 # Remove outdated versions from the cellar.
